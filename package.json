@@ -1,0 +1,19 @@
+{
+  "name": "log-sheet-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "deploy": "node deploy-commands.js",
+  "start": "node index.js",
+  "full": "npm run deploy && npm run start"
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1",
+    "googleapis": "^155.0.0"
+  }
+}
